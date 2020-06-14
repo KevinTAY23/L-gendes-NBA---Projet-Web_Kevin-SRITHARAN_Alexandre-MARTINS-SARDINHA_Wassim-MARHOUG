@@ -1,0 +1,255 @@
+html { 
+    background: url(https://images5.alphacoders.com/467/thumb-1920-467394.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Times New Roman", Times, serif;
+    color:white;
+}
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  
+  li a {
+    float: left;
+    border-right: 1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #D3D3D3;
+    transition: 0.5s;
+    text-transform: uppercase;
+  }
+  
+  
+  .insc{
+    border-left: 1px solid #bbb;
+  }
+  
+  .active{
+    background-color: gold;
+  }
+  
+  
+  .lien{
+    color: white;
+  }
+
+h1{
+  text-transform: uppercase;
+  margin-left: 1.4em;
+	color: white;
+	width: 5em;
+  border: 2.5px solid #CECD42;
+  border-radius: 15px;
+  box-shadow: 0 0 6em yellow;
+	padding: 8px 12px;
+}
+
+.protocole{
+  border:none;
+  border-radius: 40px;
+  margin:30px;
+  padding:20px;
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
+  color:gold;
+  background-color: dimgray;
+  opacity: 90%;
+}
+
+
+footer {
+    height: 4em;
+    display: flex;
+    justify-content: block;
+    padding: 5px;
+    background-color: darkgrey;
+    color: #fff;
+}
+
+
+.certif{
+  height: 2.5em;
+  justify-content: center;
+  background-color: grey;
+}
+
+
+ul.b{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dos{
+  float: left;
+}
+
+{
+  border: 1px dotted black;
+}
+
+p.question {
+  font-family: Arial, sans-serif;
+  font-size:20px;
+  color: yellow;
+  margin-bottom:0px;
+  margin-left: 1.5em;
+}
+
+h2.quizHeader {
+  font-family: Arial, sans-serif;
+  font-weight:normal;
+  font-size:25px;
+  line-height: 27px;
+  margin: 24px 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 2px solid white;
+}
+
+h2.quizScore{
+  font-family: Arial, sans-serif;
+  font-size:25px;
+}
+
+div.quizAnswers{
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  color: yellow;
+  padding: 4px 0 4px 0;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  color: white;
+  vertical-align:top;
+}
+
+input.answer[type="radio"] {
+  margin-bottom: 10px;
+}
+
+input.quizSubmit[type="submit"] {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  box-shadow: yellow 0px 0px 5px 0px;
+  color: rgb(251, 255, 0);
+  background-color: rgba(49, 50, 53, 0.911);
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-transform:uppercase;
+  height:35px;
+  width:85px;
+  border: 1px solid #5E5E5E;
+  border-radius:8px;
+  
+ }
+
+input.quizSubmit[type="submit"]:hover {
+  color: #ffffff;
+  background: grey;
+  text-decoration: none;
+}
+
+table {
+  background-color: #F2F2F2;
+    border:1px solid #BDBDBD;
+  border-radius:5px;
+  padding:10px;
+  padding-left:25px;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
+}
+
+th {
+  
+}
+
+tr {
+  
+}
+
+td {
+
+}
+
+.submitter {
+    width:85px;
+}
+
+.hide {
+    display:none;
+}
+
+.fa {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 5px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 5px;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 5px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-left: 5px;
+}
+
+.dob{
+  float: right;
+}
+
+.quizz{
+  width: 100%;
+  background-color: grey;
+}

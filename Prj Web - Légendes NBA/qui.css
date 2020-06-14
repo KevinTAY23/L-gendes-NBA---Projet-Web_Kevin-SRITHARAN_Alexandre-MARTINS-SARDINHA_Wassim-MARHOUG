@@ -1,0 +1,268 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.displayed{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h1{
+  text-transform: uppercase;
+  margin-left: 1.4em;
+  color: white;
+  width: 5.5em;
+  border: 2.5px solid #CECD42;
+  border-radius: 15px;
+  box-shadow: 0 0 6em yellow;
+  padding: 8px 12px;
+}
+
+h2{
+	color: white;
+  text-align: center;
+}
+
+
+html { 
+  background: url(https://cdn.pixabay.com/photo/2016/11/06/05/36/landscape-1802337_1280.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.header
+{
+  margin-top: 20px;
+  position: relative;
+  display: inline;
+}
+
+
+.header_logo{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    border-radius: 100%;
+    box-shadow: 0 0 5em gold;
+}
+
+
+.jing{
+  text-transform: uppercase;
+  margin-left: 1.4em;
+	color: white;
+	width: 5.5em;
+  border: 2.5px solid #CECD42;
+  border-radius: 15px;
+  box-shadow: 0 0 6em yellow;
+  padding: 8px 12px;
+}
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.shadowbox {
+  	width: 94em;
+  	border: 1px solid #333;
+  	box-shadow: 8px 8px 5px #444;
+  	padding: 8px 12px;
+  	background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  	box-sizing: content-box;
+}
+
+hr {
+  height: none;
+  border: none;
+  border-top: 2.5px dashed white;
+}
+
+
+.art{
+  color: white;
+  margin: left;
+}
+
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+li a {
+  float: left;
+  border-right: 1px solid #bbb;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #D3D3D3;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+
+.insc{
+  border-left: 1px solid #bbb;
+}
+
+.active{
+  background-color: darkgrey;
+}
+
+
+.lien{
+  color: white;
+}
+
+
+footer {
+    height: 4em;
+    display: flex;
+    justify-content: block;
+    padding: 5px;
+    background-color: darkgrey;
+    color: #fff;
+}
+
+
+.certif{
+  height: 2.5em;
+  justify-content: center;
+  background-color: grey;
+}
+
+
+ul.b{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dos{
+  float: left;
+}
+
+
+.accordion {
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: gold;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: lightgrey;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.fa {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 5px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 5px;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 5px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-left: 5px;
+}
+
+.dob{
+  float: right;
+}
+
+
+.Display_equipe{
+  display: flex;
+}
+
+.Display_images{
+  display: inline;
+  margin-left: 100px;
+}
+
+.Display_Texte{
+  color : yellow;
+}
+
+.Image{
+  width: 75%;
+  border-radius: 10%;
+}
+
+
+
+
+

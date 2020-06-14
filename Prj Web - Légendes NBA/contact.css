@@ -1,0 +1,171 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+html { 
+	background-color: #808080;
+}
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+li a {
+  float: left;
+  border-right: 1px solid #bbb;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #D3D3D3;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+
+.insc{
+  border-left: 1px solid #bbb;
+}
+
+.active{
+  background-color: gold;
+}
+
+
+.lien{
+  color: white;
+}
+
+footer {
+    height: 4em;
+    display: flex;
+    justify-content: block;
+    padding: 5px;
+    background-color: darkgrey;
+    color: #fff;
+}
+
+
+.certif{
+  height: 2.5em;
+  justify-content: center;
+  background-color: grey;
+}
+
+
+ul.b{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dos{
+  float: left;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=Submit] {
+  background-color: #1E90FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 7em;
+}
+
+input[type=Submit]:hover {
+  background-color: #4169E1;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #808080;
+  color: gold;
+  padding: 20px;
+}
+
+
+.header
+{
+  margin-top: 20px;
+  position: relative;
+}
+
+.jing{
+  text-transform: uppercase;
+  margin-left: 1.4em;
+  margin-bottom: 1.5em;
+  color: white;
+  width: 10em;
+  border: 2.5px solid #CECD42;
+  border-radius: 15px;
+  box-shadow: 0 0 6em yellow;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.fa {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 5px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 5px;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 5px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-left: 5px;
+}
+
+.dob{
+  float: right;
+}

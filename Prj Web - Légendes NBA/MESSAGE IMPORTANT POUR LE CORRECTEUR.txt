@@ -1,0 +1,12 @@
+Bonjour, je mets ce message en plus pour vous dire qu'une de nos pages, la page "Nous Contacter" a été fait en PHP.
+Or le PHP ne marche pas en dehors du fait de trouver un hebergeur en ligne ou le faire sur un serveur en local.
+Nous avons donc fait en sorte que de pouvoir voir cette page en utilisant webhost.
+Si vous souhaitez voir cette page, veuillez vous rendre sur le lien suivant :
+
+https://legendesnba.000webhostapp.com/email.php
+
+Merci pour votre compréhension.
+
+Cordialement,
+
+Kevin SRITHARAN, Wassim MARHOUG, Alexandre MARTINS-SARDINHA

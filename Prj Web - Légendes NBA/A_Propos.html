@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>À propos - Le Salon</title>
+        <link rel="stylesheet" href="qui.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="logo.png">
+
+
+        </script>
+    </head>
+
+
+<body>
+
+
+    <div>
+        <ul class="a">
+            <li><a class="active" href="accueil.html"><i class="fa fa-fw fa-home"></i> Accueil </a></li>
+            <li><a href="temoignages.html"> Légendes NBA </a></li>
+            <li><a href="forum.html"> Quiz </a></li>
+            <li><a href="A_Propos.html"> À propos</a></li>
+            <li><a href="email.php"> Contactez-nous</a></li>
+        </ul>
+    </div>
+    <h1> À PROPOS </h1>
+	<header class="header" >
+        <div class="Display_equipe">
+                <div class="Display_images">
+                    <br>
+                    <img src="Image_alex.png" class="Image">
+                    <div class="Display_Texte">
+                        <h3>
+                            Alexandre MARTINS-SARDINHA
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="Display_images">
+                    <br>
+                    <img src="Image_kevin.png" class="Image">
+                    <div class="Display_Texte">
+                        <h3>
+                            Kevin SRITHARAN
+                        </h3>
+
+                    </div>
+                </div>
+
+                <div class="Display_images">
+                    <br>
+                    <img src="Image_wassim.jpg" class="Image">
+                    <div class="Display_Texte">
+                        <h3>
+                            Wassim MAHROUG
+                        </h3>
+                    </div>
+                </div>
+            </div>
+	</header>
+	<div class="displayed">
+
+				<p>        
+					<br>
+				</p>
+
+		<button class="accordion"> Qui sommes nous ?</button>
+    		<!--<br><h2><strong> Qui sommes nous ? </strong></h2>
+    	<div class="container">
+    			<div class="shadowbox">-->
+    		<div class="panel">
+    			<!--<br>--><p> Nous sommes un groupes formés de trois étudiants en école d'ingénieur et avons décidé de créer Légendes NBA dans le cadre d'un projet d'étude.</p>
+    		</div>
+    	<!--</div>
+
+    		<br>
+    		<div>
+    			<hr>
+    		</div>
+
+    		<h2><strong> Pourquoi "Le Salon" ? </strong> </h2>
+    	<div class="container">
+    		<div class="shadowbox">-->
+    	<button class="accordion"> Pourquoi "Légendes NBA" ?</button>
+    		
+    		<div class="panel">
+    			<p> Nous avons décidé ce site car nous sommes de grands fans de basket. On en pratique aussi très souvent. C'est donc un sujet qui nous tiens à coeur. De nos jours on voit beaucoup d'actualité, tous concernant le monde actuelle.<br><br> Mais peu d'entre nous, surtout pour la nouvelle génération, ne sont pas au courant des bases et de ce qu'ont pu observer les générations précédentes.<br><br>C'est pourquoi nous avons voulu présenter six légendes qui ont marqué l'Histoire de la NBA et l'Histoire du Basketball.
+    		</div>
+    		<!--</div>
+    	</div>
+
+    		<br>
+    		<div>
+    			<hr>
+    		</div>-->
+    	<button class="accordion"> Notre site </button>
+    		<div class="panel">
+    			<p>Sur notre site vous pouvez découvir l'Histoire, en résumé de six légende du Basketball, vous pourrez notamment tester vos connaissances avec notre légendaire QUIZ. Donc ne vous en privez pas et profitez de notre site.
+    		</div>
+
+    	<button class="accordion"> Vous rencontrez des problèmes sur le site ? </button>
+    		<div class="panel">
+    			<p> Veuillez nous contacter via nos réseaux sociaux ou via le lien suivant : <a href="email.php"> Ici </p>
+    		</div>
+
+    </div>		
+
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+<footer>
+        <div>
+            <ul class="b">
+                <br>
+                <li class="dos"><a href="accueil.html"> Accueil </a></li>
+                <li class="dos"><a href="temoignages.html"> Légendes NBA </a></li>
+                <li class="dos"><a href="forum.html"> Quiz </a></li>
+                <li class="dos"><a href="A_Propos.html"> À Propos </a></li>
+                <li class="dos"><a href="email.php"> Contactez-nous </a></li>
+                <li class="dob"><a href="https://www.facebook.com/L%C3%A9gendes-NBA-107172257706119/?view_public_for=107172257706119" class="fa fa-facebook"></a>
+                <li class="dob"><a href="https://twitter.com/alex_mtns" class="fa fa-twitter"></a>
+                <li class="dob"><a href="https://www.snapchat.com/add/kevin.korver" class="fa fa-snapchat-ghost"></a>
+                <li class="dob"><a href="https://www.instagram.com/alex_mtns/" class="fa fa-instagram"></a>
+            </ul>
+        </div>
+
+
+</footer>
+
+
+
+
+        <footer class="certif">
+            <p>Le Salon © 2020. Tous droits réservés</p>
+        </footer>
+
+</body>
+</html>
